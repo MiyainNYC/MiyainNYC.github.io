@@ -244,33 +244,40 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _food
+  #_food
   - scope:
       path: ""
       type: food
     values:
       layout: single
       author_profile: true
-      share: true
+      read_time: true
       comments: true
-  # _read
-  - scope:
-      path: ""
-      type: read
-    values:
-      layout: single
-      author_profile: true
       share: true
-      comments: true
-  # _purchase
+      related: true
+  #_purchase
   - scope:
       path: ""
       type: purchase
     values:
       layout: single
       author_profile: true
-      share: true
+      read_time: true
       comments: true
+      share: true
+      related: true
+  #_read
+  - scope:
+      path: ""
+      type: read
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 
 # Sass/SCSS
 sass:
